@@ -28,6 +28,8 @@ import { Checklist } from 'mint-ui';
 
 Vue.component(Checklist.name, Checklist);
 /* eslint-disable no-new */
+
+
 new Vue({
   el: '#app',
   template: '<App/>',
