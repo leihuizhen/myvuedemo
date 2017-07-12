@@ -1,9 +1,5 @@
 <template>
-  <div id="app">
-    <!-- <img src="./assets/logo.png">
-    <hello></hello> -->
-    <!-- 1、 搜索框-->
-    <!--  <mt-search cancel-text="取消" placeholder="搜索"></mt-search> -->
+  <div>
     <!-- 2、联系人-->
     <!--  <mt-index-list >
       <mt-index-section index="A">
@@ -40,7 +36,9 @@
         <mt-cell title="Zane"></mt-cell>
       </mt-index-section>
     </mt-index-list> -->
-    <!-- 輪播圖 -->
+
+    <!--<mt-search cancel-text="取消" placeholder="搜索" class='home_search'></mt-search>-->
+    <!-- 轮播图 -->
     <mt-swipe :auto="6000">
       <mt-swipe-item>
         <img src="../../assets/images/home/s1.jpg" height="100%" width="100%"></img>
@@ -151,9 +149,11 @@
   .mint-searchbar{
     height: 40px;
     padding:5px 10px;
+
   }
   .mint-searchbar-inner{
     padding:0px;
+
   }
 
   /*輪播*/
