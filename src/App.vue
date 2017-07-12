@@ -35,6 +35,9 @@
 .mint-tabbar > .mint-tab-item.is-selected a{
   color: #26a2ff;
 }
+.mint-tabbar{
+  position: fixed;
+}
 </style>
 
 <script>

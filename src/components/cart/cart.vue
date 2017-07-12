@@ -9,6 +9,9 @@
         data() {
              return{}
         },
+        created(){
+          
+        },
         methods: {}
     }
 </script>
